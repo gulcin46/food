@@ -35,7 +35,7 @@ header nav .home-color {
   header .btn {
     display: flex;
   }
-  header .btn nav {
+  header nav {
     display: none;
   }
 }
