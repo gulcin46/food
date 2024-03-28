@@ -20,6 +20,9 @@ header {
 header .imgbox {
   width: 40px;
 }
+header .btn {
+  display: none;
+}
 header nav a {
   font-size: 20px;
   color: #8c8999;
@@ -27,6 +30,14 @@ header nav a {
 }
 header nav .home-color {
   color: #74bebc;
+}
+@media screen and (max-width: 991px) {
+  header .btn {
+    display: flex;
+  }
+  header .btn nav {
+    display: none;
+  }
 }
 
 #beautiful {
@@ -127,8 +138,7 @@ header nav .home-color {
 }
 #browse .textbox h4 span {
   color: #3cc1d8;
-  -webkit-text-decoration-line: underline;
-          text-decoration-line: underline;
+  text-decoration-line: underline;
 }
 #browse .btn {
   font-size: 18px;
