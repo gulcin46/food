@@ -32,8 +32,13 @@ header .menu nav .home-color {
   color: #74bebc;
 }
 @media screen and (max-width: 991px) {
+  header .menu {
+    height: 30px;
+    position: absolute;
+    left: 50px;
+    right: 50px;
+  }
   header .menu .btn {
-    margin-left: 0px;
     display: flex;
   }
   header .menu nav {
