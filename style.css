@@ -75,7 +75,7 @@ header .menu nav .home-color {
 }
 @media screen and (max-width: 991px) {
   #beautiful .box {
-    width: 700px;
+    width: 620px;
     margin: auto;
     text-align: center;
   }
