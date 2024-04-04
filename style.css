@@ -74,14 +74,16 @@ header .menu nav .home-color {
   font-size: 20px;
 }
 @media screen and (max-width: 991px) {
-  #beautiful .row {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  #beautiful .box {
+    width: 700px;
+    margin: auto;
+    text-align: center;
   }
-  #beautiful .row .box .textbox {
-    width: 300px;
+  #beautiful .box .imgbox {
+    margin: auto;
+  }
+  #beautiful .box h4 {
+    margin-bottom: 80px;
   }
 }
 
