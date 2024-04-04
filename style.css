@@ -32,17 +32,13 @@ header .menu nav .home-color {
   color: #74bebc;
 }
 @media screen and (max-width: 991px) {
-  header .menu {
-    height: 30px;
-    position: absolute;
-    left: 50px;
-    right: 50px;
+  header .menu nav {
+    display: none;
   }
   header .menu .btn {
     display: flex;
-  }
-  header .menu nav {
-    display: none;
+    padding: 5px 9px;
+    background-color: #f2f2f4;
   }
 }
 
@@ -76,6 +72,17 @@ header .menu nav .home-color {
 }
 #beautiful .box h4 {
   font-size: 20px;
+}
+@media screen and (max-width: 991px) {
+  #beautiful .row {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  #beautiful .row .box .textbox {
+    width: 300px;
+  }
 }
 
 #thehome {
@@ -125,6 +132,12 @@ header .menu nav .home-color {
   font-size: 20px;
   color: #676f8b;
   line-height: 1.3;
+}
+@media screen and (max-width: 991px) {
+  #works .col-md-4 {
+    display: flex;
+    flex-direction: column;
+  }
 }
 
 #browse .textbox {
