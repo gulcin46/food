@@ -75,7 +75,7 @@ header .menu nav .home-color {
 }
 @media screen and (max-width: 991px) {
   #beautiful .box {
-    width: 620px;
+    width: 6150px;
     margin: auto;
     text-align: center;
   }
@@ -111,6 +111,19 @@ header .menu nav .home-color {
 }
 #thehome .imgbox {
   width: 520px;
+}
+@media screen and (max-width: 991px) {
+  #thehome .box {
+    width: 6150px;
+    margin: auto;
+    text-align: center;
+  }
+  #thehome .box .imgbox {
+    margin: auto;
+  }
+  #thehome .box h4 {
+    margin-bottom: 80px;
+  }
 }
 
 #works h1 {
