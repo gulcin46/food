@@ -75,26 +75,26 @@ header .menu nav .home-color {
 }
 @media screen and (max-width: 991px) {
   #beautiful .box {
-    width: 6150px;
-    margin: auto;
     text-align: center;
   }
   #beautiful .box .imgbox {
     margin: auto;
   }
   #beautiful .box h4 {
-    margin-bottom: 80px;
+    margin-bottom: 75px;
   }
 }
 
 #thehome {
   background-color: #f1f8f9;
 }
+#thehome .textbox {
+  width: 400px;
+}
 #thehome .textbox h1 {
   color: #36b3bd;
   font-size: 60px;
   font-weight: 700;
-  width: 400px;
 }
 #thehome .textbox h5 {
   color: #676f8b;
@@ -113,16 +113,20 @@ header .menu nav .home-color {
   width: 520px;
 }
 @media screen and (max-width: 991px) {
-  #thehome .box {
-    width: 6150px;
-    margin: auto;
+  #thehome .textbox {
+    width: 500px;
     text-align: center;
-  }
-  #thehome .box .imgbox {
     margin: auto;
   }
-  #thehome .box h4 {
-    margin-bottom: 80px;
+  #thehome .textbox .btn {
+    margin-bottom: 60px;
+  }
+  #thehome .textbox h5 {
+    margin: 25px 5px 50px 0;
+  }
+  #thehome .imgbox {
+    width: auto;
+    margin: auto;
   }
 }
 
