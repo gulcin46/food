@@ -257,18 +257,11 @@ header .menu nav .home-color {
     padding: 20px;
   }
   #browse .box .textbox .minibox {
+    display: flex;
     flex-direction: column;
   }
   #browse .box .textbox .minibox h2 {
     margin-bottom: 10px;
-  }
-  #browse .box .textbox .add .btn {
-    width: 120px;
-    height: 40px;
-  }
-  #browse .box .textbox .add input {
-    width: 60px;
-    height: 40px;
   }
 }
 @media screen and (max-width: 467px) {
@@ -312,6 +305,11 @@ header .menu nav .home-color {
   }
   #order .textbox h5 {
     margin: 25px 0px 50px 0px;
+  }
+}
+@media screen and (max-width: 768px) {
+  #order .imgbox {
+    width: 500px;
   }
 }
 @media screen and (max-width: 479px) {
