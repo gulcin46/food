@@ -1,11 +1,15 @@
 header
     padding: 20px 0
     .menu
-
         .imgbox
             width: 40px
-        .btn
+        .btn,.btnshop
             display: none
+        .btnshop
+            background-color: #38b6c1
+            color: #ffffff
+            padding: 15px
+            border-radius: 5px
         nav
             a
                 font-size: 20px
@@ -21,4 +25,12 @@ header
                 display: flex
                 padding: 5px 9px
                 background-color: #f2f2f4
-                
+                align-items: center
+
+    @media screen and ( max-width: 400px )
+        .menu
+            .btn
+                padding: 15px
+            .btnshop
+                display: flex
+                margin-right: 10px
