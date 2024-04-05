@@ -78,11 +78,15 @@ header .menu nav .home-color {
     text-align: center;
     margin-left: 50px;
   }
+  #beautiful .box .btn {
+    margin: 10px 0px 30px 0px;
+  }
   #beautiful .box .imgbox {
     margin: auto;
   }
   #beautiful .box h4 {
-    margin: 10px 10px 40px 0px;
+    margin: 10px 50px 40px 0px;
+    font-size: 19px;
   }
   #beautiful .box h5 {
     margin: 25px 30px 50px 0;
@@ -244,12 +248,41 @@ header .menu nav .home-color {
     width: 100px;
   }
 }
-@media screen and (max-width: 467px) {
-  #browse .allbuttons {
+@media screen and (max-width: 768px) {
+  #browse .box {
+    flex-wrap: wrap;
+  }
+  #browse .box .imgbox {
+    width: 300px;
+    padding: 20px;
+  }
+  #browse .box .textbox .minibox {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+  }
+  #browse .box .textbox .add .btn {
+    width: 120px;
+    height: 40px;
+  }
+  #browse .box .textbox .add h2 {
+    margin-bottom: 10px;
+  }
+}
+@media screen and (max-width: 479px) {
+  #browse .allbutns {
     flex-direction: column;
     align-items: center;
+  }
+  #browse .allbutns .btn, #browse .allbutns .bgc {
+    width: 300px;
+    height: 60px;
+    margin-bottom: 10px;
+  }
+  #browse .box .imgbox {
+    width: 100%;
+  }
+  #browse .box .minibox h2 {
+    margin-bottom: 10px;
   }
 }
 
@@ -296,11 +329,8 @@ header .menu nav .home-color {
   #order .imgbox {
     width: 400px;
   }
-  #order .textbox h1 {
-    font-size: 40px;
-  }
-  #order .textbox h5 {
-    font-size: 15px;
+  #order .textbox {
+    margin: 30px;
   }
 }
 
@@ -342,9 +372,17 @@ header .menu nav .home-color {
     margin: auto;
   }
 }
-@media screen and (max-width: 467px) {
+@media screen and (max-width: 768px) {
   #callour .imgbox {
     width: 300px;
+  }
+}
+@media screen and (max-width: 479px) {
+  #callour .imgbox {
+    width: 300px;
+  }
+  #callour .textbox {
+    margin: 30px;
   }
 }
 
@@ -377,5 +415,14 @@ header .menu nav .home-color {
   }
   #support .textbox .btn {
     margin: 50px;
+  }
+}
+@media screen and (max-width: 479px) {
+  #support .bgc {
+    margin: 0px 0px 10px 10px;
+    width: 450px;
+  }
+  #support .bgc h1 {
+    font-size: 50px;
   }
 }/*# sourceMappingURL=style.css.map */
