@@ -111,6 +111,15 @@ header .menu nav .home-color {
     margin-left: 50px;
   }
 }
+@media screen and (max-width: 400px) {
+  #beautiful .box {
+    margin-left: 0px;
+  }
+  #beautiful .box h1 {
+    font-size: 47px;
+  }
+}
+
 #thehome {
   background-color: #f1f8f9;
 }
