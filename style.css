@@ -76,12 +76,19 @@ header .menu nav .home-color {
 @media screen and (max-width: 991px) {
   #beautiful .box {
     text-align: center;
+    margin-left: 50px;
   }
   #beautiful .box .imgbox {
     margin: auto;
   }
   #beautiful .box h4 {
-    margin-bottom: 75px;
+    margin: 10px 10px 40px 0px;
+  }
+  #beautiful .box h5 {
+    margin: 25px 30px 50px 0;
+  }
+  #beautiful .imgbox {
+    margin-left: 50px;
   }
 }
 
@@ -114,7 +121,6 @@ header .menu nav .home-color {
 }
 @media screen and (max-width: 991px) {
   #thehome .textbox {
-    width: 500px;
     text-align: center;
     margin: auto;
   }
@@ -238,7 +244,6 @@ header .menu nav .home-color {
     width: 100px;
   }
 }
-
 #order .imgbox {
   width: 600px;
 }
