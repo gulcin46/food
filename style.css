@@ -362,6 +362,14 @@ header .menu nav .home-color {
     margin: 30px;
   }
 }
+@media screen and (max-width: 400px) {
+  #order .textbox h1 {
+    font-size: 50px;
+  }
+  #order .textbox h5 {
+    font-size: 18px;
+  }
+}
 
 #callour {
   background-color: #f1f8f9;
