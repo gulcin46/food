@@ -110,6 +110,12 @@ header .menu nav .home-color {
     margin-left: 50px;
   }
 }
+@media screen and (max-width: 767px) {
+  #beautiful .box h1 {
+    margin-left: 20px;
+    font-size: 45px;
+  }
+}
 @media screen and (max-width: 476px) {
   #beautiful .box {
     width: 850px;
