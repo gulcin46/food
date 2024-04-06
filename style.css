@@ -92,7 +92,6 @@ header .menu nav .home-color {
 @media screen and (max-width: 991px) {
   #beautiful .box {
     text-align: center;
-    margin-left: 50px;
   }
   #beautiful .box .btn {
     margin: 10px 0px 30px 0px;
@@ -111,12 +110,22 @@ header .menu nav .home-color {
     margin-left: 50px;
   }
 }
+@media screen and (max-width: 476px) {
+  #beautiful .box {
+    width: 850px;
+    margin-left: 40px;
+  }
+  #beautiful .box h1 {
+    font-size: 50px;
+  }
+}
 @media screen and (max-width: 400px) {
   #beautiful .box {
-    margin-left: 0px;
+    text-align: center;
   }
   #beautiful .box h1 {
     font-size: 47px;
+    margin-right: 30px;
   }
 }
 
