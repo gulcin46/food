@@ -422,6 +422,14 @@ header .menu nav .home-color {
     margin: 30px;
   }
 }
+@media screen and (max-width: 400px) {
+  #callour .textbox h1 {
+    font-size: 50px;
+  }
+  #callour .textbox h5 {
+    font-size: 18px;
+  }
+}
 
 #support .textbox h1 {
   font-size: 60px;
