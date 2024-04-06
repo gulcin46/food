@@ -473,12 +473,12 @@ header .menu nav .home-color {
 }
 @media screen and (max-width: 400px) {
   #support .bgc {
-    width: 360px;
+    width: 380px;
   }
   #support .imgbox {
-    width: 360px;
+    width: 380px;
   }
-  #support .imgbox h1 {
-    font-size: 40px;
+  #support .textbox h1 {
+    font-size: 47px;
   }
 }/*# sourceMappingURL=style.css.map */
