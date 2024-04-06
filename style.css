@@ -308,8 +308,8 @@ header .menu nav .home-color {
     width: 120px;
     height: 40px;
   }
-  #browse .box .textbox .add h2 {
-    margin-bottom: 10px;
+  #browse .box .textbox h2 {
+    margin: 10px 0px 10px 0px;
   }
 }
 @media screen and (max-width: 479px) {
@@ -354,25 +354,15 @@ header .menu nav .home-color {
 @media screen and (max-width: 991px) {
   #order .imgbox {
     margin: auto;
-    width: 800px;
   }
   #order .textbox {
     text-align: center;
-    width: 480px;
   }
   #order .textbox h5 {
     margin: 25px 0px 50px 0px;
   }
 }
-@media screen and (max-width: 768px) {
-  #order .imgbox {
-    width: 500px;
-  }
-}
 @media screen and (max-width: 479px) {
-  #order .imgbox {
-    width: 400px;
-  }
   #order .textbox {
     margin: 30px;
   }
